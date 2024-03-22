@@ -6,7 +6,7 @@ const cartRouter =require('./routes/cartRouter');
  const orderRouter =require('./routes/orderRouter');
 const app =express();
 const mongoose =require('mongoose');
-const dotenv =require('dotenv');
+
 dotenv.config();
 
 app.use(express.json());
